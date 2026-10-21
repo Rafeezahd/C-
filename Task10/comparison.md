@@ -1,0 +1,7 @@
+# Task 10 — Expected totals and observed execution
+
+The benchmark cycles through fares of 1,000, 2,000, 3,000, 1,200, 2,400, and 3,600 paise. The six-fare cycle totals 13,200 paise. The expected total is therefore 43,998,600 paise for 20,000 journeys, 1,099,998,600 paise for 500,000, and 6,600,000,000 paise for 3,000,000. These are Rs 439,986.00, Rs 10,999,986.00, and Rs 66,000,000.00.
+
+The six actual fares are whole rupees, so those schedule totals are exactly representable as double values at these scales. A second column repeatedly adds Rs 0.10 to demonstrate that a decimal fraction not exactly representable in binary can accumulate a small error. Integer paise stays exact. Both additions take O(1) time; n journeys take O(n). A per-value int64_t and double are both commonly 8 bytes. A 32-bit signed paise total cannot hold the 3,000,000 journey total; signed overflow is undefined behavior, so the program detects the limit rather than intentionally overflowing.
+
+The output file reports the measured run time per addition for the execution environment and the actual numerical error. Timing is machine- and compiler-dependent; totals and overflow conclusions are deterministic. outputs/compiler.txt records the warning from -Wextra: a signed int is compared with an unsigned int. That warning identifies the usual arithmetic conversion that turns -1 into a very large unsigned value; Task 4 keeps the expression to demonstrate the behavior and explains a safe alternative.
