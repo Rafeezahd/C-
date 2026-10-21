@@ -1,0 +1,10 @@
+bool         size=1 byte(s) range=[0,1]
+char         size=1 byte(s) range=[-128,127]
+int          size=4 byte(s) range=[-2147483648,2147483647]
+long long    size=8 byte(s) range=[-9223372036854775808,9223372036854775807]
+unsigned     size=4 byte(s) range=[0,4294967295]
+float        size=4 byte(s) range=[-3.402823e+38,3.402823e+38]
+double       size=8 byte(s) range=[-1.797693e+308,1.797693e+308]
+Money/paise  size=8 byte(s) range=[-9223372036854775808,9223372036854775807]
+Zone         size=1 byte(s), four scoped values
+auto count   size=4 byte(s), deduced as int

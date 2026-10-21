@@ -1,0 +1,28 @@
+g++.exe (GCC) 16.2.0
+Target: x86_64-w64-mingw32; language standard: C++17
+Flags: -Wall -Wextra -Wpedantic
+Compile: Task03/type_sizes.cpp
+No diagnostics.
+Compile: Task04/predict_output.cpp
+Task04/predict_output.cpp: In function 'int main()':
+Task04/predict_output.cpp:17:39: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+   17 |     std::cout << (u < 2) << " " << (s >= u) << '\n';
+      |                                     ~~^~~~
+Compile: Task05/expressions.cpp
+No diagnostics.
+Compile: Task06/complete_code.cpp
+No diagnostics.
+Compile: Task07/procedural.cpp
+No diagnostics.
+Compile: Task07/object_oriented.cpp
+No diagnostics.
+Compile: Task08/gate.cpp
+No diagnostics.
+Compile: Task09/test_fare.cpp
+No diagnostics.
+Compile: Task10/precision_benchmark.cpp
+No diagnostics.
+Compile: Task12/design_challenge.cpp
+No diagnostics.
+Result: all 10 programs compiled successfully.
+Final prompt-formatting rebuild: Task08/gate.cpp compiled with the same flags and no diagnostics; Task08/input.txt run completed with exit code 0.

@@ -1,0 +1,6 @@
+Revised four-zone smart-card design
+1. Inner at 8:00 -> 1200 paise, approved, balance 8800 paise
+2. Middle at 9:00 -> 1800 paise, approved, balance 7000 paise
+3. Outer at 12:00 -> 1350 paise, approved, balance 5650 paise
+4. Airport at 17:00 -> 7200 paise, denied, balance 5650 paise
+Monthly pass: 100 airport journeys approved; stored balance 0 paise

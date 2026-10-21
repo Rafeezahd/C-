@@ -1,0 +1,43 @@
+Starting balance (paise):
+Monthly pass on this card? (0 no, 1 yes):
+Number of journeys:
+
+Journey report
+#  Zone     Time   Fare (Rs)  Result        Balance (Rs)
+Journey 1
+Zone (1 Inner, 2 Middle, 3 Outer, 4 Airport):
+Hour (0-23):
+Minute (0-59):
+Fare mode (0 weekday, 1 weekend):
+Passenger (0 regular, 1 student, 2 senior):
+1  Inner    11:00   10.00      Approved       90.00
+Journey 2
+Zone (1 Inner, 2 Middle, 3 Outer, 4 Airport):
+Hour (0-23):
+Minute (0-59):
+Fare mode (0 weekday, 1 weekend):
+Passenger (0 regular, 1 student, 2 senior):
+2  Outer    08:00   36.00      Approved       54.00
+Journey 3
+Zone (1 Inner, 2 Middle, 3 Outer, 4 Airport):
+Hour (0-23):
+Minute (0-59):
+Fare mode (0 weekday, 1 weekend):
+Passenger (0 regular, 1 student, 2 senior):
+3  Middle   09:30   24.00      Denied       54.00
+Journey 4
+Zone (1 Inner, 2 Middle, 3 Outer, 4 Airport):
+Hour (0-23):
+Minute (0-59):
+Fare mode (0 weekday, 1 weekend):
+Passenger (0 regular, 1 student, 2 senior):
+4  Unknown  --:--     0.00      Invalid zone   54.00
+Journey 5
+Zone (1 Inner, 2 Middle, 3 Outer, 4 Airport):
+Hour (0-23):
+Please enter a whole number; try again.
+Hour (0-23):
+Minute (0-59):
+Fare mode (0 weekday, 1 weekend):
+Passenger (0 regular, 1 student, 2 senior):
+5  Middle   09:30   24.00      Denied       54.00

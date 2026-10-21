@@ -1,0 +1,3 @@
+Fare Rs 10.00 balance Rs 90.00
+Fare Rs 36.00 balance Rs 54.00
+Denied (low balance) balance Rs 54.00

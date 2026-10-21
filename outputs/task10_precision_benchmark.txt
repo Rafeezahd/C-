@@ -1,0 +1,4 @@
+Journeys | integer-paise total | double total (Rs) | schedule error (paise) | repeated Rs0.10 error (paise) | int32 overflow? | integer ns/add | double ns/add
+20000 | 43998600 | 439986.00 | 0.00000000 | -0.00000007 | no | 3.30 | 4.30
+500000 | 1099998600 | 10999986.00 | 0.00000000 | -0.00004471 | no | 3.41 | 3.86
+3000000 | 6600000000 | 66000000.00 | 0.00000000 | 0.00019568 | yes | 3.15 | 3.34

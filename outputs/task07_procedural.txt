@@ -1,0 +1,3 @@
+Approved: 1000 paise; remaining 9000 paise
+Approved: 3600 paise; remaining 5400 paise
+Denied; remaining 5400 paise

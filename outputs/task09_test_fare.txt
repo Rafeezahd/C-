@@ -1,0 +1,16 @@
+Fare test table (money in paise)
+PASS inner off-peak | expected 1000, actual 1000 | expected approved, actual approved
+PASS middle peak | expected 2400, actual 2400 | expected approved, actual approved
+PASS middle off-peak | expected 2000, actual 2000 | expected approved, actual approved
+PASS outer peak | expected 3600, actual 3600 | expected approved, actual approved
+PASS outer off-peak | expected 3000, actual 3000 | expected approved, actual approved
+PASS exactly 08:00 is peak | expected 1200, actual 1200 | expected approved, actual approved
+PASS exactly 10:00 is off-peak | expected 1000, actual 1000 | expected approved, actual approved
+PASS exactly 17:00 is peak | expected 1200, actual 1200 | expected approved, actual approved
+PASS exactly 20:00 is off-peak | expected 1000, actual 1000 | expected approved, actual approved
+PASS concession | expected 1500, actual 1500 | expected approved, actual approved
+PASS weekend ignores peak surcharge | expected 2700, actual 2700 | expected approved, actual approved
+PASS pass is free and unlimited | expected 0, actual 0 | expected approved, actual approved
+PASS minimum remaining balance enforced | expected 1200, actual 1200 | expected denied, actual denied
+PASS invalid zone/time, non-positive recharge, and negative fare rejected
+Summary: 14/14 checks passed
